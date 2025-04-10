@@ -1,13 +1,35 @@
 {
     "atomType": "Molecule",
-    "name": "test 3",
+    "name": "test-3",
     "x": 0,
     "y": 0,
     "uniqueID": 1744326936988,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1744326947012,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.12542144302090358,
+            "y": 0.44282238442822386,
+            "uniqueID": 1744326957585,
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "FESTOOL_SYS3 Bottom.svg",
+            "type": "SVG",
+            "SVGwidth": 10
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
